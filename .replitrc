@@ -1,0 +1,21 @@
+run = "node index.js"
+language = "nodejs"
+entrypoint = "index.js"
+
+[nix]
+channel = "stable-22_11"
+
+[env]
+NODE_ENV = "production"
+
+[languages.javascript]
+pattern = "**/*.{js,jsx,ts,tsx}"
+syntax = "javascript"
+
+[packager]
+language = "nodejs"
+
+[packager.features]
+packageSearch = true
+guessImports = true
+enabledForHosting = false

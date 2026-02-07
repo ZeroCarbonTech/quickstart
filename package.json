@@ -1,0 +1,31 @@
+{
+  "name": "zerocarbon-quickstart",
+  "version": "1.0.0",
+  "description": "5-minute quickstart for ZeroCarbon API - Calculate carbon emissions instantly",
+  "main": "index.js",
+  "bin": {
+    "zerocarbon-quickstart": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "demo": "node index.js"
+  },
+  "keywords": [
+    "carbon",
+    "emissions",
+    "climate",
+    "api",
+    "quickstart",
+    "demo",
+    "calculator"
+  ],
+  "author": "ZeroCarbon",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zerocarbon/quickstart"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
