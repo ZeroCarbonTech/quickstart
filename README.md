@@ -9,6 +9,7 @@ Get your first carbon footprint calculation in **under 5 minutes**. No signup re
 npx zerocarbon-quickstart
 ```
 
+
 ### Option 2: Python
 ```bash
 pip install zerocarbon && python -m zerocarbon.quickstart
